@@ -101,3 +101,6 @@ Unknown/Pending Documentation
 
 ### E210: 
 Unknown/Pending Documentation
+
+## Miscellaneous / Other information
+Presumably, when rogue Xbox One Internal devkits are banned, they present an irreversible `E20X` error code. (Their certificate might be wipped, according to @TitleOS)
