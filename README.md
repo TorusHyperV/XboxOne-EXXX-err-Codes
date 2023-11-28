@@ -12,18 +12,20 @@ Xbox One shows two types of critical error codes when the console cannot boot. T
 ## Error Screen types
 There are only 2 types of error screens that show EXXX codes.
 
-<center>
+<p align="center">
 Screen Type 1:
-</center>
+</p>
 
 If you see this screen type, it means that the Operating System has, at least, been able to start. But then it found some problems.
 The Operating System can have started just from eMMC NAND memory (in the case of Xbox One) or from the SSD's hidden partition (in the case of Xbox Series)
 The Operating System might have also loaded the full Operating System files from the HDD/SSD before failing.
 ![image](https://github.com/TorusHyperV/XboxOne-E-err-Codes/assets/100166926/5d67c9db-cf28-42af-95d9-0c7ad63fff18)
 
-<center>
+---
+
+<p align="center">
 Screen Type 2:
-</center>
+</p>
 
 If you see this screen you are screwed. This is a bootloader screen, which means the OS didn't load. This means the bootloader was not able to read the basic OS files from the eMMC memory (in the case of Xbox One) or from the SSD's hidden partition (Xbox Series), or they were corrupted or some file missing.
 ![image](https://github.com/TorusHyperV/XboxOne-E-err-Codes/assets/100166926/b4b2684b-9c0f-4df0-b4d3-9fdb81fa34fb)
