@@ -32,7 +32,7 @@ If you see this screen you are screwed. This is a bootloader screen, which means
 
 ## E100 Codes
 ### E100
-Unknown/Pending Documentation
+_Update Failed / Dvd drive not paired_
 
 ### E101:
 Unknown/Pending Documentation
