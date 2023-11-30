@@ -6,8 +6,8 @@ Documentation of Xbox One EXXX (E201, E105, etc...) error codes and their meanin
 
 ## Preamble
 Xbox One shows two types of critical error codes when the console cannot boot. This list aims to become a comprehensive documentation of these codes, and advice or tutorials explaining how to repair consoles with those errors. 
-**NOTE 1:** Some of these codes might be shared with Series S/X but the meanings might be slightly different! For example, Series S/X uses SSD, not HDD. Please always double check.
-**NOTE 2:** Some official documentation exists (https://support.xbox.com/en-US/help/errors/error-code-e105) but usually the explanations are just vague or completely inaccurate. 
+* **NOTE 1:** Some of these codes might be shared with Series S/X but the meanings might be slightly different! For example, Series S/X uses SSD, not HDD. Please always double check.
+* **NOTE 2:** Some official documentation exists (https://support.xbox.com/en-US/help/errors/error-code-e105) but usually the explanations are just vague or completely inaccurate. 
 
 ## Error Screen types
 There are only 2 types of error screens that show EXXX codes.
