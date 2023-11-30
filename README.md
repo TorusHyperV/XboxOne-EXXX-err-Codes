@@ -56,19 +56,18 @@ Related to the update process - several different possible causes
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
 ### E105:
-_No HDD was found_ or _Corrupted file in the HDD_ or _Corrupted file in the eMMC_
+_No HDD was found_ / _Corrupted file in the HDD_ / _Corrupted file in the eMMC_
 This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk.
 
-**Solution 1:** Plug an HDD into the sata port. Check that the sata port is not damaged.
-**Solution 2:** eMMC might be damaged and failing to read properly. Try to dump eMMC, and then replace eMMC with a new part. Restore dump into the new eMMC. [VIDEO](https://www.youtube.com/watch?v=XJVitvPhe_M)
-**Note:** The original eMMC must be readable enough to get the console's certificate. The rest of the memory is not necessary, but an Xbox One won't work without its factory-issued unique console certificate.
+* **Solution 1:** Plug an HDD into the sata port. Check that the sata port is not damaged.
+* **Solution 2:** eMMC might be damaged and failing to read properly. Try to dump eMMC, and then replace eMMC with a new part. Restore dump into the new eMMC. [VIDEO](https://www.youtube.com/watch?v=XJVitvPhe_M)
+* **Note:** The original eMMC must be readable enough to get the console's certificate. The rest of the memory is not necessary, but an Xbox One won't work without its factory-issued unique console certificate.
 
 ### E106:
-_No HDD was found_ or _Corrupted file in the HDD_ or _Corrupted file in the eMMC_
+_No HDD was found_ / _Corrupted file in the HDD_ / _Corrupted file in the eMMC_
 
 This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk. (Almost like _E105_)
 **Solution:** Same as _E105_
-
 
 ### E107:
 Unknown/Pending Documentation
@@ -100,6 +99,7 @@ Unknown/Pending Documentation
 
 ### E203:
 The last update was interrupted.
+
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update)
 
 ### E204:
@@ -107,6 +107,7 @@ Unknown/Pending Documentation
 
 ### E205:
 An ongoing system update failed because of software reasons
+
 **Solution:** Reboot the console and try again. If the error persists attempt an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update). If other error codes appear, try the solutions for those instead.
 
 ### E206:
@@ -120,6 +121,7 @@ Unknown/Pending Documentation
 
 ### E209:
 Software error? Seems to happen sometimes whenever a factory reset occurs.
+
 **Solution:** Reboot the console and try again.
 
 ### E210: 
