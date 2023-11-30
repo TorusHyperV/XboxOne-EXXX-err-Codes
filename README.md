@@ -31,31 +31,44 @@ If you see this screen you are screwed. This is a bootloader screen, which means
 ![image](https://github.com/TorusHyperV/XboxOne-E-err-Codes/assets/100166926/b4b2684b-9c0f-4df0-b4d3-9fdb81fa34fb)
 
 ## E100 Codes
+These are error codes that happen earlier in the boot process or in the Xbox's HostOS.
+
 ### E100
-_Update Failed / Dvd drive not paired_
+_Update Failed / DVD drive not paired_
+This error typically occurs when a paired DVD drive is not present, and will prevent the ongoing system update from finishing.
+
+**Solution:** Repair the original DVD drive that came with the console.
 
 ### E101:
-Unknown/Pending Documentation
+Related to the update process - several different possible causes
+**Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
 ### E102:
-Unknown/Pending Documentation
+Related to the update process - several different possible causes
+**Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
 ### E103:
-Unknown/Pending Documentation
+Related to the update process - several different possible causes
+**Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
 ### E104:
-Unknown/Pending Documentation
+Related to the update process - several different possible causes
+**Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
 ### E105:
-_No HDD was found_
+_No HDD was found_ or _Corrupted file in the HDD_ or _Corrupted file in the eMMC_
+This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk.
 
-**Solutions:** Plug an HDD into the sata port. Check that the sata port is not damaged.
+**Solution 1:** Plug an HDD into the sata port. Check that the sata port is not damaged.
+**Solution 2:** eMMC might be damaged and failing to read properly. Try to dump eMMC, and then replace eMMC with a new part. Restore dump into the new eMMC. [VIDEO](https://www.youtube.com/watch?v=XJVitvPhe_M)
+**Note:** The original eMMC must be readable enough to get the console's certificate. The rest of the memory is not necessary, but an Xbox One won't work without its factory-issued unique console certificate.
 
 ### E106:
-_Update process failed do to a failed read/write to the Xbox One's eMMC._
+_No HDD was found_ or _Corrupted file in the HDD_ or _Corrupted file in the eMMC_
 
-**Solutions:** Try to dump eMMC, and then replace eMMC with a new part. Restore dump into the new eMMC. [VIDEO](https://www.youtube.com/watch?v=XJVitvPhe_M)
-**Note:** The original eMMC must be readable enough to get the console's certificate. The rest of the memory is not necessary, but an Xbox One won't work without its factory-issued unique console certificate.
+This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk. (Almost like _E105_)
+**Solution:** Same as _E105_
+
 
 ### E107:
 Unknown/Pending Documentation
@@ -64,7 +77,9 @@ Unknown/Pending Documentation
 Unknown/Pending Documentation
 
 ### E109:
-Unknown/Pending Documentation
+Invalid harddisk (Xbox One) or invalid SSD (Series S/X).
+
+**Solution:** This error appears when swapping the hard disk (HDD) or solid state disk (SSD) of the consoles. It is unknown why some drives are invalid even after copying the files from the original drive. It might be a speed/bandwith issue (in other words: the console detecting that the disk is not fast enough) or maybe the Xbox's only accept disks from specific manufacturers (specially Series S/X and the SSDs, Xbox One seems to accept almost any hard disk (has someone tried to put like a 100Gb old HDD or something? It might trigger this error code.). **Replace the disk with another one, preferably from the same brands that Microsoft uses, or even a disk from another donor Xbox**
 
 ### E110:
 Unknown/Pending Documentation
@@ -72,6 +87,11 @@ Unknown/Pending Documentation
 ---
 
 ## E200 Codes
+
+### E200:
+Generic catch-all error code.
+**Solution:** Unknown.
+
 ### E201:
 Unknown/Pending Documentation
 
@@ -79,13 +99,15 @@ Unknown/Pending Documentation
 Unknown/Pending Documentation
 
 ### E203:
-Unknown/Pending Documentation
+The last update was interrupted.
+**Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update)
 
 ### E204:
 Unknown/Pending Documentation
 
 ### E205:
-Unknown/Pending Documentation
+An ongoing system update failed because of software reasons
+**Solution:** Reboot the console and try again. If the error persists attempt an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update). If other error codes appear, try the solutions for those instead.
 
 ### E206:
 Unknown/Pending Documentation
@@ -97,8 +119,14 @@ Unknown/Pending Documentation
 Unknown/Pending Documentation
 
 ### E209:
-Unknown/Pending Documentation
+Software error? Seems to happen sometimes whenever a factory reset occurs.
+**Solution:** Reboot the console and try again.
 
+---
+
+## E300 Codes
+
+Apparently, starting with the Xbox Series family of consoles, new E3XX codes exist. Their meaning is partially unknown
 ### E210: 
 Unknown/Pending Documentation
 
