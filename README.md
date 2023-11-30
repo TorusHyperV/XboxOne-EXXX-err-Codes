@@ -122,13 +122,14 @@ Unknown/Pending Documentation
 Software error? Seems to happen sometimes whenever a factory reset occurs.
 **Solution:** Reboot the console and try again.
 
+### E210: 
+Unknown/Pending Documentation
+
 ---
 
 ## E300 Codes
+Apparently, [E3XX codes exist](https://answers.microsoft.com/en-us/xbox/forum/all/error-code-e302/a0750089-2c16-402a-8101-1feab59671ad). They seem to be rarer to come accross. Their meaning is partially unknown
 
-Apparently, starting with the Xbox Series family of consoles, new E3XX codes exist. Their meaning is partially unknown
-### E210: 
-Unknown/Pending Documentation
 
 ## Miscellaneous / Other information
 Presumably, when rogue Xbox One Internal devkits are banned, they present an irreversible `E20X` error code. (Their certificate might be wipped, according to @TitleOS)
