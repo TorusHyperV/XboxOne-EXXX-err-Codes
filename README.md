@@ -39,7 +39,7 @@ This error typically occurs when a paired DVD drive is not present, and will pre
 
 **Solution:** Repair the original DVD drive that came with the console.
 
-### E101 UEM_HOST_FACTORY_RESET:
+### E101:
 Related to the update process - several different possible causes
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
