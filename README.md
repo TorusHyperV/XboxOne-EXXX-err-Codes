@@ -33,7 +33,7 @@ If you see this screen you are screwed. This is a bootloader screen, which means
 ## E100 Codes
 These are error codes that happen earlier in the boot process or in the Xbox's HostOS.
 
-### E100
+### E100 UEM_HOST_SYSTEM_UPDATE_PASS2:
 _Update Failed / DVD drive not paired_
 This error typically occurs when a paired DVD drive is not present, and will prevent the ongoing system update from finishing.
 
@@ -43,7 +43,7 @@ This error typically occurs when a paired DVD drive is not present, and will pre
 Related to the update process - several different possible causes
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
-### E102:
+### E102 UEM_HOST_FACTORY_RESET:
 Related to the update process - several different possible causes
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
@@ -55,7 +55,7 @@ Related to the update process - several different possible causes
 Related to the update process - several different possible causes
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update) and check that the disk is not damaged. Replace if damaged.
 
-### E105:
+### E105 UEM_HOST_RESET_XVD_MOUNT:
 _No HDD was found_ / _Corrupted file in the HDD_ / _Corrupted file in the eMMC_
 This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk.
 
@@ -63,19 +63,19 @@ This error seems to occur whenever an OS file cannot be found or is corrupted, e
 * **Solution 2:** eMMC might be damaged and failing to read properly. Try to dump eMMC, and then replace eMMC with a new part. Restore dump into the new eMMC. [VIDEO](https://www.youtube.com/watch?v=XJVitvPhe_M)
 * **Note:** The original eMMC must be readable enough to get the console's certificate. The rest of the memory is not necessary, but an Xbox One won't work without its factory-issued unique console certificate.
 
-### E106:
+### E106 UEM_HOST_WELL_KNOWN_XVD_MOUNT:
 _No HDD was found_ / _Corrupted file in the HDD_ / _Corrupted file in the eMMC_
 
 This error seems to occur whenever an OS file cannot be found or is corrupted, either in the eMMC, or in the Hard Disk. (Almost like _E105_)
 **Solution:** Same as _E105_
 
-### E107:
+### E107 UEM_HOST_ENGINEERING_HARDWARE_EXPIRED:
 Unknown/Pending Documentation
 
 ### E108:
 Unknown/Pending Documentation
 
-### E109:
+### E109 UEM_HOST_WRONG_HARDWARE:
 Invalid harddisk (Xbox One) or invalid SSD (Series S/X).
 
 **Solution:** This error appears when swapping the hard disk (HDD) or solid state disk (SSD) of the consoles. It is unknown why some drives are invalid even after copying the files from the original drive. It might be a speed/bandwith issue (in other words: the console detecting that the disk is not fast enough) or maybe the Xbox's only accept disks from specific manufacturers (specially Series S/X and the SSDs, Xbox One seems to accept almost any hard disk (has someone tried to put like a 100Gb old HDD or something? It might trigger this error code.). **Replace the disk with another one, preferably from the same brands that Microsoft uses, or even a disk from another donor Xbox**
@@ -87,17 +87,17 @@ Unknown/Pending Documentation
 
 ## E200 Codes
 
-### E200:
-Generic catch-all error code.
-**Solution:** Unknown.
+### E200 UEM_SYS_BUGCHECK:
+Secondary error code reveals the bugcheck cause / code.
+See <https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2#review-bug-check-codes> for the secondary code.
 
-### E201:
+### E201 UEM_SYS_XCI_FAILURE:
+Code integrity failure
+
+### E202 UEM_SYS_XAM_FAILURE:
 Unknown/Pending Documentation
 
-### E202:
-Unknown/Pending Documentation
-
-### E203:
+### E203 UEM_SYS_SYSTEM_UPDATE_PASS3:
 The last update was interrupted.
 
 **Solution:** Perform an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update)
@@ -105,7 +105,7 @@ The last update was interrupted.
 ### E204:
 Unknown/Pending Documentation
 
-### E205:
+### E205 UEM_SYS_UPDMGR_CRASH:
 An ongoing system update failed because of software reasons
 
 **Solution:** Reboot the console and try again. If the error persists attempt an [OSU](https://support.xbox.com/en-US/help/hardware-network/console/offline-system-update). If other error codes appear, try the solutions for those instead.
@@ -116,7 +116,7 @@ Unknown/Pending Documentation
 ### E207:
 Unknown/Pending Documentation
 
-### E208: 
+### E208 UEM_SYS_XBOX_USERMODE_INIT_FAILURE: 
 Unknown/Pending Documentation
 
 ### E209:
